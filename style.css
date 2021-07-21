@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color:#bbb;
+}
+
+#container
+{
+width: 100vw;
+
+}
+
+
+
+
+#container{
+    opacity: 1;
+    animation: fadeIn 5s ease;
+  }
+  
+  @keyframes fadeIn{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 50px;
+
+ 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  img{
+      max-width: 20%;
+  }
+
+  .column-text{
+    max-width: 50%;
+  }
+
+  .column-flex{
+      display: flex;
+     justify-content: space-around;
+  }
+  
